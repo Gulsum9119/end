@@ -14,7 +14,7 @@ body {
     background-color: #fcfcfa;
     font-family: rubik;
 }
-h1, h2, h3, h4, a, p{
+h1, h2, h3, h4, h6, a, p{
     font-family: ofont;
 }
 
@@ -137,7 +137,10 @@ section.icons{
 .icons_image img{
     width: 50px;
 }
+/******accaunt СТРАНИЦА******/
+.contact_information{
 
+}
 
 /******2 СТРАНИЦА******/
 .flowers_image img{
@@ -262,4 +265,80 @@ align-items: center;}
     flex-direction: column;
     justify-content: center;
     align-self: center;
+}
+
+
+/******footer**********/
+.all_footer{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    padding: 45px;
+}
+.all_footer a{
+    color: white;
+}
+.sylka{
+    display: flex;
+    gap:70px;
+
+}
+.short_text p{
+ color: white;
+}
+.short_text img{
+    width: 15px;
+}
+
+
+
+/*****contacts*****/
+.contacts{
+    background-image: url(/img/фон\ для\ о\ нас.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact_information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 150px;
+    gap: 10px;
+}
+
+
+
+
+section.about_us{
+    background-image: url(/img/about_us.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px;
+
+}
+.all_about_us{
+    display: flex;
+    flex-direction: column;
+}
+.first_information{
+    width: 400px;
+    font-size: 35px;
+
+}
+/*.second_information{
+    width: 400px;
+    font-size: 25px;
+    float: inline-end;
+    padding-right: 15px;
+
+}
+/*.third_information{
+    width: 400px;
+    font-size: 25px;
+    float: left;
+    padding-top: 100px;
 }
