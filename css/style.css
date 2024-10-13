@@ -115,7 +115,9 @@ font-size: 80px;
     cursor: pointer;
 
 }
-
+header{
+    background-color: rgba(255, 184, 161, 0.685);
+}
 /***icon**/
 section.icons{
     background-color: rgba(255, 184, 161, 0.685);
